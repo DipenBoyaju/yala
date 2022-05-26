@@ -1,0 +1,332 @@
+/*!
+ * Bootstrap Responsive v2.3.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 992px) {
+
+	
+	
+}
+
+@media (min-width: 768px) {
+
+	
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.header .date-space {
+  margin-left: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.header .logo-space {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}	
+.header .date-space p {
+  background-color: #b8292f;
+  color: #ffffff;
+}
+.navbar-default .navbar-nav {
+  margin-right: 30px;
+}
+.navbar-default .nav > li > a {
+  padding: 0px 20px 0px 0px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}	
+.sticky {
+  padding-left: 20px;
+}
+.sticky .date-space {
+  margin-left: 0px;
+  margin-right: 0;
+  padding-right: 0;
+  padding-right: 0;
+}
+.sticky1 .icons {
+  margin: 75px 86px 0 0;
+}
+}
+
+@media (max-width: 767px) {	
+
+/** home-page-starts **/
+.header {
+  background-color: #ffffff;
+  text-align: center;
+}
+.header .social-medias ul {
+  float: none;
+  text-align: center;
+  padding-left: 0;
+}
+.header .date-space {
+  margin-left: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.header .logo-space {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.header .date-space p {
+  background-color: #b8292f;
+  color: #ffffff;
+}
+.header .navbar-default {
+  background-color: #ffffff;
+  border-color: transparent;
+  float: none !important;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 0;
+}
+.navbar-default .nav > li > a {
+  padding: 0px 16px 0px 0px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.navbar-default .nav > li > a:hover {
+  color: #ffffff;
+}
+.navbar-default .nav > li {
+  padding: 8px 0 8px 0px !important;
+  margin: 0 !important;
+  transition: 0.8s ease-out;
+}
+.navbar-default .nav > li:hover {
+  background-color: #d0ad67;
+  transition: 1s ease;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: transparent;
+  background-color: transparent;
+  border-bottom: none;
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active {
+  color: #b8292f;
+  background-color: transparent;
+  border-bottom: 3px solid #d0ad67;
+  background-color: #b8292f;
+  color: #ffffff;
+}
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b8292f;
+  border-radius: 0;
+  border-color: transparent;
+  transition: 0.8s ease;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #d0ad67;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.social-medias .visit-yala a {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  margin: -40px 0px 0 -100px;
+  padding: 15px 20px 5px 20px;
+  font-size: 14px;
+  line-height: 0;
+}
+.social-medias .visit-yala a::before {
+  position: absolute;
+  z-index: 5;
+  content: '';
+  width: 0;
+  height: 0;
+  border-width: 15px 15px 0 0;
+  border-color: #d0ad67 transparent transparent transparent;
+  margin: -17px 0px 0 -22px;
+}
+.social-medias .visit-yala a::after {
+  position: absolute;
+  z-index: 5;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0px 15px 15px;
+  border-color: transparent transparent #d0ad67 transparent;
+  margin: -8px 0px 0 64px;
+}
+.social-medias ul {
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  margin-top: 0px;
+  margin-right: 65px;
+}
+.social-medias ul li {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 20px 20px 20px 0px;
+}
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 0px 0px;
+  z-index: 10;
+  background-color: #eeeeee;
+}
+.sticky1 {
+  position: fixed;
+  top: 13px;
+  background-color: transparent;
+  width: 100%;
+  z-index: 10;
+}
+.sticky1 .icons {
+  margin-right: 86px;
+}
+.sticky1 .icons li {
+  height: 26px;
+  width: 26px;
+  font-size: 10px;
+  margin: 0 0px;
+}
+.sticky .logo,
+.sticky .date-space {
+  display: none;
+}
+.content .title h1,
+.testimonials .title h1,
+.about .title h1 {
+  font-size: 38px;
+  margin: 20px 0;
+}
+.testimonial{
+    margin:0px 40px 30px;
+    padding: 20px 20px 20px;
+    }
+.testimonial .testimonial-content{
+    line-height: 25px;
+}    
+.bottom-nav {
+  text-align: center;
+}
+.bottom-nav .icons ul {
+  float: none;
+  margin-right: 40px;
+}
+.footer .container {
+  padding: 0 15px;
+}
+.footer .place-left {
+  padding-left: 15px !important;
+}
+.footer .place-left1 {
+  padding-right: 15px !important;
+}
+.content .left {
+  padding-right: 15px;
+}
+.content .right {
+  padding-left: 15px;
+}
+.slide-sponser .part1 {
+  padding: 0 30px;
+}
+/** home-page-ends **/
+
+/** about-page-starts **/
+.about,
+.terms {
+  padding: 0 10px;
+}
+.nav-pills,
+.nav-pills {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+.nav-pills>li>a {
+  padding: 5px 0px;
+}
+/** about-page-ends **/
+
+.terms .nav-pills {
+  margin-top: 30px;
+}
+.volunteer-form .title h2 {
+  font-size: 25px;
+}
+.volunteer-form h2::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  height: 1px;
+  width: 200px;
+  background-color: #b8292f;
+  margin: 50px 0 0 -215px;
+}
+.volunteer-form h2::before {
+  position: absolute;
+  z-index: 2;
+  content: '';
+  height: 10px;
+  width: 10px;
+  background-color: #b8292f;
+  margin: 72px 0 0 75px;
+  border: 2px solid #d0ad67;
+  text-align: 
+}
+.sitemap ul li {
+  margin-left: 30px;
+}
+}
+
+@media (max-width: 480px) {
+
+.social-medias ul li {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 20px 20px 20px 0px;
+}
+.sticky1 .icons li {
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  margin: 0 0px;
+}
+.content .news {
+  height: 280px;
+  margin-bottom: 30px;
+}
+}
